@@ -1,0 +1,14 @@
+nama database : ecommerce
+(buat database ecommerce --> import database ecommerce)
+
+file koneksi :
+projek/includes/db.php
+projek/admin/includes/db.php
+projek/customer/includes/db.php
+projek/functions/functions.php
+
+
+anggota dan kontak  :
+
+Charles(00000018083)
+email:s00000018083@student.uph.edu

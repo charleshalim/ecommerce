@@ -1,0 +1,329 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* end of css reset code */
+
+
+
+
+
+
+body	{
+	background-color: #eaf4ff;
+}
+
+
+/* halaman utama */
+
+.container {
+	margin-left:12%;
+	margin-right: 12%;
+}
+
+.navigation{
+background-color: #061539;
+overflow: hidden;
+height:100%;
+width:100%;
+box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+margin-top: 0;
+border-radius: 6px;
+}
+
+
+.navigation li{
+	width:140px;
+	float: left;
+    list-style-type: none;
+	font-family: 'ambleregular';
+	font-size: 20px;
+  -webkit-transition: all .9s;
+   -moz-transition: all .9s;
+   -o-transition: all .9s;
+   -ms-transition: all .9s;
+   transition: all .9s;
+	padding: 20px;
+}
+
+
+.navigation li a{
+text-decoration:none;
+color:#FFF;
+font-size:17px;
+font-family: 'Calibri';
+}
+
+.navigation li a:hover{
+
+color:#6699ff;
+}
+
+
+.sidebar{
+	background-color: #eaf4ff;
+	width: 20%;
+	margin-top: 1%;
+	color:black;
+	height: 700px;
+	float:left;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.sidebartitle{
+	background-color: #061539;
+	color:white;
+	font-size:18px;
+	font-family:arial;
+	text-align: center;
+	padding: 4px;
+	height: 3.1%;
+}
+
+.cats{
+	text-align:center;
+}
+.cats li{
+	list-style: none;
+	padding:6px;
+}
+.cats a{
+	color:black; margin:5px; text-align: center; font-size :18px; text-decoration: none; font-family: Comic Sans Ms;
+}
+.cats a:hover{
+color:orange; font-weight: bolder;
+text-decoration: underline;;
+}
+
+
+
+
+
+
+.header{
+	width:100%;
+	background-color: green;
+	height:85px;
+	float:left;
+	margin-bottom: 2%;
+}
+
+.header p {
+	font-size:20px;
+	float:right;
+	margin-top: 4%;
+}
+
+.header a{
+	text-decoration: none;
+	color:#2067d8;
+	margin-bottom: 4%;
+}
+
+
+
+.content{
+	margin-top:1%;
+	height:700px;
+	width:79.4%;
+	float:left;
+		background-color: #eaf4ff;
+		border-right: 2px solid black;
+		border-bottom: 2px solid black;
+}
+
+.contentcheckout{
+	margin-top:1%;
+	height:700px;
+	width:79.4%;
+	float:left;
+		background-color: #eaf4ff;
+		border-right: 2px solid black;
+
+}
+
+.contentallproducts{
+	margin-top:1%;
+	height:100%;
+	width:79%;
+	float:left;
+	background-color: #eaf4ff;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.contentarea{
+	background-color: #061539;
+	width:100%;
+}
+
+
+.footer{
+	margin-top: 1%;
+	width:100%;
+	background-color: #999da3;
+	height: 100px;
+	float:left;
+}
+
+
+.footer h2{
+font-size:25px;
+text-align: center;
+font-family: 'Calibri';
+}
+
+.searchbox{
+margin-bottom: 1%;
+margin-left: 1%;
+margin-top: 4%;
+}
+
+
+/* style produk */
+.products_box{
+	width: 900px;
+	text-align: center;
+	margin-left:30px;
+	margin-bottom: 10px;
+
+}
+
+.table{
+	margin-left: 25%;
+	margin-top: 25%;
+
+}
+
+
+#single_product{
+	float:left; margin-left: 3%;
+	padding:10px;
+
+}
+#single_product h3{
+font-size: 22px;
+font-family: 'Calibri';
+}
+
+#single_product img{
+	border:2px solid black;
+}
+
+
+
+#single_productdetail{
+ margin-left: 3%;
+	padding:10px;
+	float: center;
+
+}
+#single_productdetail h3{
+font-size: 22px;
+font-family: 'Calibri';
+}
+
+#single_productdetail img{
+	border:2px solid black;
+}
+
+
+
+#shopping_cart{
+	width: 100%; height: 30px;
+	background-color: #061539;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+.myaccountsidebarwrapper{
+	background-color: black;
+	width: 20%;
+	margin-top: 1%;
+	color:white;
+	height: 100%;
+	float:left;
+}
+ mu a
+
+.myaccountsidebar{
+	text-align:center;
+}
+.myaccountsidebar li{
+	list-style: none;
+	padding:6px;
+}
+.myaccountsidebar a{
+	color:orange; margin:5px; text-align: center; font-size :14px; text-decoration: none; font-family: Comic Sans Ms;
+}
+.myaccountsidebar a:hover{
+color:white; font-weight: bolder;
+text-decoration: underline;;
+}
+
+.myaccountcontent{
+	margin-top:1%;
+	height:100%;
+	width:79.4%;
+	float:left;
+	background-color: #eaf4ff;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+		border-left: 2px solid black;
+	min-height: 260px;
+}
